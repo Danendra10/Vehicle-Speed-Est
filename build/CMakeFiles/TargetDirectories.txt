@@ -1,0 +1,3 @@
+/home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles/rebuild_cache.dir
+/home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles/edit_cache.dir
+/home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles/speed_detector.dir

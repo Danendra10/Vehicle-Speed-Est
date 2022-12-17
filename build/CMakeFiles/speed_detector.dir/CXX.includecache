@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dancoeks/Kuliah/PVE/finalproject/src/speed_detector.cpp
+opencv4/opencv2/opencv.hpp
+/home/dancoeks/Kuliah/PVE/finalproject/src/opencv4/opencv2/opencv.hpp
+
