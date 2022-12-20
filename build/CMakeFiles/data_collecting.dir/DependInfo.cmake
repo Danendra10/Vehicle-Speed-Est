@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/src/speed_detector.cpp" "/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles/speed_detector.dir/src/speed_detector.cpp.o"
+  "/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/src/data_collecting.cpp" "/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles/data_collecting.dir/src/data_collecting.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

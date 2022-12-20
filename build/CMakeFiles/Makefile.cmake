@@ -11,6 +11,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config-version.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets-release.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets.cmake"
   "/usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake"
   "/usr/local/lib/cmake/opencv4/OpenCVConfig.cmake"
   "/usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake"
@@ -51,5 +55,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/data_collecting.dir/DependInfo.cmake"
   "CMakeFiles/speed_detector.dir/DependInfo.cmake"
   )

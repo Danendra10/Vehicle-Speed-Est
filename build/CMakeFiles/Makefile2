@@ -44,15 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dancoeks/Kuliah/PVE/finalproject
+CMAKE_SOURCE_DIR = /home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dancoeks/Kuliah/PVE/finalproject/build
+CMAKE_BINARY_DIR = /home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/data_collecting.dir/all
 all: CMakeFiles/speed_detector.dir/all
 
 .PHONY : all
@@ -63,9 +64,37 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/data_collecting.dir/clean
 clean: CMakeFiles/speed_detector.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/data_collecting.dir
+
+# All Build rule for target.
+CMakeFiles/data_collecting.dir/all:
+	$(MAKE) -f CMakeFiles/data_collecting.dir/build.make CMakeFiles/data_collecting.dir/depend
+	$(MAKE) -f CMakeFiles/data_collecting.dir/build.make CMakeFiles/data_collecting.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles --progress-num=1,2 "Built target data_collecting"
+.PHONY : CMakeFiles/data_collecting.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/data_collecting.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/data_collecting.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles 0
+.PHONY : CMakeFiles/data_collecting.dir/rule
+
+# Convenience name for target.
+data_collecting: CMakeFiles/data_collecting.dir/rule
+
+.PHONY : data_collecting
+
+# clean rule for target.
+CMakeFiles/data_collecting.dir/clean:
+	$(MAKE) -f CMakeFiles/data_collecting.dir/build.make CMakeFiles/data_collecting.dir/clean
+.PHONY : CMakeFiles/data_collecting.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/speed_detector.dir
@@ -74,14 +103,14 @@ clean: CMakeFiles/speed_detector.dir/clean
 CMakeFiles/speed_detector.dir/all:
 	$(MAKE) -f CMakeFiles/speed_detector.dir/build.make CMakeFiles/speed_detector.dir/depend
 	$(MAKE) -f CMakeFiles/speed_detector.dir/build.make CMakeFiles/speed_detector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles --progress-num=1,2 "Built target speed_detector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles --progress-num=3,4 "Built target speed_detector"
 .PHONY : CMakeFiles/speed_detector.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/speed_detector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/speed_detector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles 0
 .PHONY : CMakeFiles/speed_detector.dir/rule
 
 # Convenience name for target.

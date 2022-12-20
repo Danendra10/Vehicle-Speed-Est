@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/dancoeks/Kuliah/PVE/finalproject/src/speed_detector.cpp
+/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/src/speed_detector.cpp
 opencv4/opencv2/opencv.hpp
-/home/dancoeks/Kuliah/PVE/finalproject/src/opencv4/opencv2/opencv.hpp
+/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/src/opencv4/opencv2/opencv.hpp
+iostream
+-
+vector
+-
+chrono
+-
+yaml-cpp/yaml.h
+/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/src/yaml-cpp/yaml.h
+string
+-
 

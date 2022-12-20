@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dancoeks/Kuliah/PVE/finalproject
+CMAKE_SOURCE_DIR = /home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dancoeks/Kuliah/PVE/finalproject/build
+CMAKE_BINARY_DIR = /home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles /home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles /home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named data_collecting
+
+# Build rule for target.
+data_collecting: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 data_collecting
+.PHONY : data_collecting
+
+# fast build rule for target.
+data_collecting/fast:
+	$(MAKE) -f CMakeFiles/data_collecting.dir/build.make CMakeFiles/data_collecting.dir/build
+.PHONY : data_collecting/fast
+
+#=============================================================================
 # Target rules for targets named speed_detector
 
 # Build rule for target.
@@ -122,6 +135,33 @@ speed_detector: cmake_check_build_system
 speed_detector/fast:
 	$(MAKE) -f CMakeFiles/speed_detector.dir/build.make CMakeFiles/speed_detector.dir/build
 .PHONY : speed_detector/fast
+
+src/data_collecting.o: src/data_collecting.cpp.o
+
+.PHONY : src/data_collecting.o
+
+# target to build an object file
+src/data_collecting.cpp.o:
+	$(MAKE) -f CMakeFiles/data_collecting.dir/build.make CMakeFiles/data_collecting.dir/src/data_collecting.cpp.o
+.PHONY : src/data_collecting.cpp.o
+
+src/data_collecting.i: src/data_collecting.cpp.i
+
+.PHONY : src/data_collecting.i
+
+# target to preprocess a source file
+src/data_collecting.cpp.i:
+	$(MAKE) -f CMakeFiles/data_collecting.dir/build.make CMakeFiles/data_collecting.dir/src/data_collecting.cpp.i
+.PHONY : src/data_collecting.cpp.i
+
+src/data_collecting.s: src/data_collecting.cpp.s
+
+.PHONY : src/data_collecting.s
+
+# target to generate assembly for a file
+src/data_collecting.cpp.s:
+	$(MAKE) -f CMakeFiles/data_collecting.dir/build.make CMakeFiles/data_collecting.dir/src/data_collecting.cpp.s
+.PHONY : src/data_collecting.cpp.s
 
 src/speed_detector.o: src/speed_detector.cpp.o
 
@@ -158,7 +198,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... data_collecting"
 	@echo "... speed_detector"
+	@echo "... src/data_collecting.o"
+	@echo "... src/data_collecting.i"
+	@echo "... src/data_collecting.s"
 	@echo "... src/speed_detector.o"
 	@echo "... src/speed_detector.i"
 	@echo "... src/speed_detector.s"

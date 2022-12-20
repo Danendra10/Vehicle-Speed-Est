@@ -1,3 +1,4 @@
-/home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles/rebuild_cache.dir
-/home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles/edit_cache.dir
-/home/dancoeks/Kuliah/PVE/finalproject/build/CMakeFiles/speed_detector.dir
+/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles/rebuild_cache.dir
+/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles/edit_cache.dir
+/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles/data_collecting.dir
+/home/dancoeks/Downloads/FinalProject-20221220T063437Z-001/FinalProject/build/CMakeFiles/speed_detector.dir
